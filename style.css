@@ -1,0 +1,65 @@
+/* CSS Styling:
+o Center content on page
+o Style the Pokemon cards
+o Style types with appropriate colors
+o Style buttons and input field */
+
+body {
+    text-align: center;
+    background-color: rgb(191, 227, 242);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#errorMessage {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(244, 52, 52);
+}
+
+h1 {
+    margin: 70px;
+    font-size: 45px;
+}
+
+.displayArea {
+    /* display: ;
+    align-items: center;  */
+    background-color: lightpink;
+}
+
+img {
+    border: none;
+}
+
+#slot-1, #slot-2, #slot-3, #slot-4, #slot-5, #slot-6 {
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+}
+
+.inputField input{
+    margin: 30px 5px;
+    font-size: 30px;
+}
+
+.inputField button {
+    font-size: 32px;
+}
+
+.inputField button:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(104, 200, 110);
+}
+
+#clearTeamButton {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#clearTeamButton:hover {
+    transition-duration: 0.3s;
+    background-color: rgb(104, 200, 110);
+}
